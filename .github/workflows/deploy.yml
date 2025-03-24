@@ -33,7 +33,7 @@ jobs:
           context: .
           file: ./ci/Dockerfile
           push: true
-          tags: gagal1818/kiii/lab3:latest
+          tags: gagal1818/kiii:latest
 
       - name: Copy docker-compose.yml to the remote server
         run: |
